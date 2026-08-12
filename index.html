@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#171228">
+<title>Amazon Crop Test</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  min-height:100vh;
+  background:#171228;
+  color:#fff;
+  font-family:Arial,Helvetica,sans-serif;
+  padding:18px;
+}
+.app{max-width:520px;margin:auto}
+.card{
+  background:#241c3a;
+  border-radius:30px;
+  padding:24px 18px;
+  box-shadow:0 18px 48px rgba(0,0,0,.35);
+  text-align:center;
+}
+.logo{font-size:60px}
+h1{font-size:31px;margin:8px 0}
+p{opacity:.8;line-height:1.45}
+
+/* Questa è la "finestra" visibile del player */
+.player-window{
+  position:relative;
+  width:100%;
+  height:118px;
+  margin-top:20px;
+  overflow:hidden;
+  border-radius:20px;
+  background:#111;
+  border:2px solid rgba(255,209,102,.55);
+}
+
+/* L'iframe completo resta cliccabile, ma lo spostiamo verso l'alto
+   così vediamo solo la sua fascia inferiore. */
+.player-window iframe{
+  position:absolute;
+  left:0;
+  top:-234px;
+  width:100%;
+  height:352px;
+  border:0;
+  display:block;
+}
+
+.hint{
+  font-size:13px;
+  opacity:.7;
+  margin:10px 0 0;
+}
+button{
+  width:100%;
+  border:0;
+  border-radius:18px;
+  padding:16px;
+  margin-top:14px;
+  font-size:18px;
+  font-weight:800;
+  cursor:pointer;
+}
+.reveal{background:#ff7aa2;color:#21111a}
+#answer{
+  display:none;
+  margin-top:18px;
+  padding:22px;
+  border-radius:22px;
+  background:#fff8ea;
+  color:#171228;
+}
+.year{font-size:58px;font-weight:900;color:#d14d72}
+.artist{font-size:22px;font-weight:900;margin-top:8px}
+.title{font-size:20px;font-weight:800;margin-top:6px;color:#6b3faf}
+</style>
+</head>
+<body>
+<main class="app">
+<section class="card">
+  <div class="logo">🎧</div>
+  <h1>GUESS THE TRACK</h1>
+  <p>Test: titolo e copertina Amazon restano fuori dalla finestra visibile.</p>
+
+  <div class="player-window">
+    <iframe
+      id="AmazonMusicEmbedB07VRWKJNK"
+      src="https://music.amazon.it/embed/B07VRWKJNK/?id=DVlR8oYrhg&marketplaceId=APJ6JRA9NG5V4&musicTerritory=IT"
+      allow="autoplay; encrypted-media">
+    </iframe>
+  </div>
+
+  <div class="hint">
+    Premi direttamente il vero controllo Play di Amazon nella fascia qui sopra.
+  </div>
+
+  <button class="reveal" id="revealBtn">👁 MOSTRA LA RISPOSTA</button>
+
+  <div id="answer">
+    <div class="year">TEST</div>
+    <div class="artist">Carta 030</div>
+    <div class="title">Titolo/artista da completare</div>
+  </div>
+</section>
+</main>
+
+<script>
+document.getElementById("revealBtn").onclick=function(){
+  document.getElementById("answer").style.display="block";
+  this.style.display="none";
+};
+</script>
+</body>
+</html>
