@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#110d22">
+<title>Guess The Track</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:#110d22}
+body{
+  min-height:100vh;padding:14px;
+  color:#fff;font-family:Arial,Helvetica,sans-serif;
+  display:flex;justify-content:center;align-items:flex-start
+}
+.game{
+  width:min(100%,520px);
+  background:linear-gradient(180deg,#281d45 0%,#211737 100%);
+  border-radius:30px;padding:26px 18px 22px;
+  box-shadow:0 18px 50px rgba(0,0,0,.38);
+  text-align:center
+}
+.headphones{font-size:58px;line-height:1}
+h1{margin:10px 0 14px;font-size:32px;letter-spacing:.3px}
+.sub{font-size:15px;line-height:1.45;color:#ddd3e9;margin:0 4px 20px}
+
+/* La fascia è il VERO player Amazon ritagliato.
+   Non mettiamo nulla sopra alla zona Play: deve restare cliccabile. */
+.amazon-shell{
+  position:relative;height:108px;width:100%;overflow:hidden;
+  border-radius:20px;border:2px solid #d6a532;background:#090b0d;
+  margin-top:8px
+}
+.amazon-shell iframe{
+  position:absolute;left:0;top:-244px;
+  width:100%;height:352px;border:0;display:block
+}
+
+/* Copre solo la zona testuale Amazon, NON il Play.
+   Il Play resta realmente quello Amazon e quindi funziona. */
+.listen-cover{
+  position:absolute;z-index:4;
+  left:94px;right:0;top:0;bottom:0;
+  pointer-events:none;
+  display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(180deg,#ffd66a,#ffbd3f);
+  color:#18120a;font-size:24px;font-weight:900;
+  border-radius:0 18px 18px 0
+}
+
+/* Cornice decorativa attorno al vero Play, senza intercettare tocchi */
+.play-frame{
+  position:absolute;z-index:5;pointer-events:none;
+  left:7px;top:7px;width:80px;height:92px;
+  border:2px solid rgba(255,211,92,.6);border-radius:17px
+}
+
+.helper{font-size:12px;color:#cfc5dc;margin:10px 0 14px}
+button{
+  width:100%;border:0;border-radius:18px;padding:17px 12px;
+  font-size:18px;font-weight:900;cursor:pointer
+}
+.reveal{background:#fa6f9d;color:#1b1020}
+#answer{
+  display:none;margin-top:15px;padding:20px 14px;border-radius:20px;
+  background:#fff8eb;color:#1c1530
+}
+#answer .year{font-size:50px;font-weight:900;color:#d14d72}
+#answer .artist{font-size:22px;font-weight:900;margin-top:6px}
+#answer .song{font-size:19px;font-weight:800;margin-top:5px;color:#6b3faf}
+</style>
+</head>
+<body>
+<main class="game">
+  <div class="headphones">🎧</div>
+  <h1>GUESS THE TRACK</h1>
+  <p class="sub">Premi Play, ascolta il brano e prova a indovinare.</p>
+
+  <div class="amazon-shell">
+    <iframe
+      id="AmazonMusicEmbedB07VRWKJNK"
+      src="https://music.amazon.it/embed/B07VRWKJNK/?id=DVlR8oYrhg&marketplaceId=APJ6JRA9NG5V4&musicTerritory=IT"
+      allow="autoplay; encrypted-media">
+    </iframe>
+    <div class="listen-cover">ASCOLTA</div>
+    <div class="play-frame"></div>
+  </div>
+
+  <div class="helper">Premi il pulsante Play nella zona a sinistra.</div>
+
+  <button class="reveal" id="reveal">👁 MOSTRA LA RISPOSTA</button>
+
+  <section id="answer">
+    <div class="year">TEST</div>
+    <div class="artist">Carta 030</div>
+    <div class="song">Titolo e artista da completare</div>
+  </section>
+</main>
+
+<script>
+document.getElementById('reveal').addEventListener('click',function(){
+  document.getElementById('answer').style.display='block';
+  this.style.display='none';
+});
+</script>
+</body>
+</html>
