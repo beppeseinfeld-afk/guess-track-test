@@ -1,0 +1,71 @@
+001 | 1976 | Judas Priest | Victim of Changes | B0DR2JXWYB | zMp69HKK0f
+002 | 1983 | Iron Maiden | The Trooper | B07VLKD1GN | BcJlpyba7q
+003 | 1980 | Judas Priest | Living After Midnight | B0092940EW | J6Lm0AcwbC
+004 | 1980 | Iron Maiden | Remember Tomorrow | B07VPS93DW | Jr32HqbN8Q
+005 | 1980 | Judas Priest | Breaking the Law | B00TS767TE | nU2gnjp4XM
+006 | 1987 | King Diamond | Abigail | B09HG164D1 | 4TMByJcBa1
+007 | 1990 | Kreator | People of the Lie | B0F16WPVVJ | uOlwtdQRY7
+008 | 1988 | Manowar | Kings of Metal | B008LPPYH0 | 6x5AhKB9JY
+009 | 1993 | Motörhead | Burner | B00934LWG0 | rfMJ0QyoRj
+010 | 1980 | Ozzy Osbourne | Mr. Crowley | B08HW4J4BH | dpdWPfRj2H
+011 | 1969 | The Beatles | Come Together | B07W1NZ1JW | m6p72E0biT
+012 | 1969 | Creedence Clearwater Revival | Fortunate Son | B00UCD3BHO | aNE6aC1bxG
+013 | 1971 | Creedence Clearwater Revival | Have You Ever Seen the Rain | B0098NFSVQ | U7hBEBKBkq
+014 | 1976 | Blue Öyster Cult | (Don't Fear) The Reaper | B01HTZCHUE | k3en4oxOiA
+015 | 1968 | The Rolling Stones | Sympathy for the Devil | B0098B20XW | 4dqEfVuGao
+016 | 1966 | The Rolling Stones | Paint It, Black | B0094RPGGS | Dz2EuWwusB
+017 | 1977 | Iggy Pop | Lust for Life | B071W2RGYK | w6un49SEG2
+018 | 1973 | ZZ Top | La Grange | B0F1B8K36V | 9em5M584ek
+019 | 1970 | Derek & The Dominos | Layla | B00CKX630Q | hrb6meqpkT
+020 | 1977 | Ram Jam | Black Betty | B00KYZAOLG | hwGMfJMfSV
+021 | 1971 | T. Rex | Get It On | B0098DQ5LS | 9MRjNBlmT8
+022 | 1970 | Mountain | Mississippi Queen | B0094RKQZO | x2iLW5PWtA
+023 | 1970 | The Guess Who | American Woman | B076NWP4YP | 3EVkXmFUdd
+024 | 1990 | AC/DC | Thunderstruck | B00O6J9FB6 | i8pZfwmTqj
+025 | 1989 | Alice Cooper | Poison | B0092HA5YS | iZfor9I6qd
+026 | 1980 | Ozzy Osbourne | Crazy Train | B08HW5F2NS | kgVXfKa1aR
+027 | 1972 | Stealers Wheel | Stuck in the Middle with You | B079VH2QRY | IGOyLjth9U
+028 | 1970 | Led Zeppelin | Immigrant Song | B07W11CC3Y | vlHwTAXSQB
+029 | 1973 | Steve Miller Band | The Joker | B074FTDKSV | ze70R9G3UF
+030 | 1976 | Boston | More Than a Feeling | B00N5TE78E | DO7PsatuNw
+031 | 1975 | Aerosmith | Sweet Emotion | B084P5CL5T | vZf9Jrq2Ku
+032 | 1977 | Fleetwood Mac | The Chain | B00B1O1PTY | X1s2PfFOZ9
+033 | 1975 | AC/DC | T.N.T. | B00O6JCV58 | CJVHO6ghll
+034 | 1966 | Count Five | Psychotic Reaction | B00OLB5TW8 | LxQ09HGkKR
+035 | 1964 | The Kinks | You Really Got Me | B0DZWPJ7RQ | tBfNvNwxPp
+036 | 1963 | The Trashmen | Surfin' Bird | B008MS7TA6 | gHolKTOeaG
+037 | 1977 | Status Quo | Rockin' All Over the World | B0098CLVG8 | t5DBLtoNcx
+038 | 1979 | Supertramp | The Logical Song | B0098DFXDY | xnhOsO40Wn
+039 | 1964 | The Animals | House of the Rising Sun | B00QUPQQM0 | 9PFsatSgCm
+040 | 1976 | Thin Lizzy | The Boys Are Back in Town | B0095222DM | igAARJ3bCj
+041 | 1977 | Eric Clapton | Cocaine | B0094XGHFG | ITnEI2ZaEM
+042 | 1963 | The Kingsmen | Louie Louie | B00X11HOJU | lIiYHxz7m6
+043 | 1970 | George Harrison | My Sweet Lord | B0DZWD38W7 | 28XNEsdZjI
+044 | 1971 | America | A Horse with No Name | B07W219ZZV | zOjhBlTFcI
+045 | 1971 | Don McLean | American Pie | B008P66JPG | PPp19KCqCP
+046 | 1970 | The Allman Brothers Band | Midnight Rider | B07H1FN6F1 | etWtikHNpO
+047 | 1979 | The Knack | My Sharona | B008QE68RG | m9kaPQYWs2
+048 | 2000 | Bon Jovi | It's My Life | B00PCK0WJ2 | PPa2k96d7m
+049 | 1978 | The Police | Roxanne | B07QQTRB9H | pZTBlaW60O
+050 | 1979 | Electric Light Orchestra | Don't Bring Me Down | B017IVK7TW | FAN6yZ9UEB
+051 | 1972 | Neil Young | Heart of Gold | B0098H9T26 | yE1LY4TP6Q
+052 | 1972 | Elton John | Crocodile Rock | B0BLK7TJL4 | dJRotYLfvk
+053 | 1989 | Mötley Crüe | Kickstart My Heart | B0F1KFG3FR | 9pcdlJ0PtT
+054 | 1973 | Lynyrd Skynyrd | Gimme Three Steps | B0098FMKVU | Q3wPCLRdF9
+055 | 1955 | The Platters | The Great Pretender | B00988WF62 | d9OdiUDgqk
+056 | 1956 | Johnny Cash | I Walk the Line | B0GQ6QXGNT | k0wxhmteJj
+057 | 1960 | Elvis Presley | Are You Lonesome Tonight? | B01DK18HOG | 1qPw7eHfFV
+058 | 1954 | The Chordettes | Mr. Sandman | B0BKYV577Q | ySsQVMleHX
+059 | 1957 | Jerry Lee Lewis | Whole Lotta Shakin' Goin' On | B00NAYXLTU | PmTysuEUFm
+060 | 1958 | Danny & the Juniors | Rock and Roll Is Here to Stay | B0BY199VFD | btHNWeZ9dy
+061 | 1955 | Little Richard | Tutti Frutti | B076YL3MBN | qau0HURmQE
+062 | 1961 | Chubby Checker | Let's Twist Again | B0098DIRQO | Kytl3a3u2g
+063 | 1962 | The Beach Boys | Surfin' Safari | B009KRQKCG | TCsn46TOrF
+064 | 1967 | Aretha Franklin | Respect | B008LLB7A2 | 9LVhSJHGpP
+065 | 1966 | The Beach Boys | Good Vibrations | B009KRM9PS | i4Aaw3dlhr
+066 | 1969 | Frank Sinatra | My Way | B00FFMM93E | Q82oVBWxQt
+067 | 1968 | The Beatles | Ob-La-Di, Ob-La-Da | B07FTBGCF1 | ylWK5SaelP
+068 | 1963 | Johnny Cash | Ring of Fire | B009B4U6XW | EPbTLh5efw
+069 | 2002 | Gabin feat. Stefano Di Battista | Doo Uap, Doo Uap, Doo Uap | B01G2IQG7O | 4IAivW8tM4
+070 | 1964 | The Beach Boys | I Get Around | B009LU12ZW | 4HeHCYo5Aw
+071 | 1986 | Slayer | Angel of Death | B00C0N2RSI | BZj8FLH3Rg

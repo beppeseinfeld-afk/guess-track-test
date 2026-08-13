@@ -1,0 +1,15 @@
+{
+  "name": "Guess The Track",
+  "short_name": "Guess Track",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#110d22",
+  "theme_color": "#110d22",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
